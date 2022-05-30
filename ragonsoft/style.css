@@ -1,0 +1,265 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	font-family: Arial;
+}
+body{
+	background: #cecece;
+	padding: 0;
+	margin: 0;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	display: block;
+	overflow: hidden;
+	background: url("img.jpg")  left 0px;
+	background-size: cover ;
+	height: 740px;
+	padding: 20px 40px;
+}
+
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+#logo-container{
+	display: inline-block;
+	max-width: 20%;
+}
+#logo{
+	max-width: 100%;
+	display: inline-block; 
+	margin: 0px;
+}
+
+#main-menu{
+	float: right;
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	max-width: 75%;
+}
+.menu-items{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 10px 25px;
+}
+
+.menu-items a{
+	font-weight: bold;
+	color: #666;
+}
+
+.menu-items:hover{
+	transition: all 0.8s;
+	transform: scale(1.2);
+}
+
+.menu-items a:hover{
+	color: #444;
+}
+
+#header-text{
+	text-align: center;
+	margin: 12% 1%;
+	width: 35%;
+	font-size: 6em;
+}
+
+#header-text strong{
+	color: hsl(0,80%,55%);
+}
+
+#section2{
+	overflow: hidden;
+	padding: 5em 0;
+}
+#message-img{
+	width: 50%;
+	float: left;
+	margin-right: 5%;
+}
+
+#message{
+	text-align: center;
+	line-height: 125%;
+	padding: 5% 5% 0 0 ;
+	font-size: 2.5em;
+	margin: 0;
+}
+
+#specs{
+	padding: 5em 0;
+}
+#specs-table{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid;
+}
+
+table,th,td{
+	border: 2px solid ;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+td{
+	background: rgba(255,255,255,0.5);
+}
+
+th{
+	background: #ccc;
+}
+
+th,td{
+	line-height: 2.2em;
+	font-size: 1.2em;
+}
+
+.build-site>td>a{
+	padding: 5px 25px;
+	border-radius: 20px;
+	color: #eee;
+	background: hsl(0,100%,60%);
+}
+
+
+
+#section3-header{
+	font-size: 3.5em;
+	text-align: center;
+}
+
+#features{
+	overflow: hidden;
+}
+
+.features-columns{
+	max-width: 49%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.features-box{
+	max-width: 48.2%;
+	display: inline-block;
+	border-radius: 25px;
+	padding: 0;
+	margin: 2% 0.5%;
+	background: rgba(250,250,250,0.5);
+}
+
+.features-box-heading{
+	text-align: center;
+	padding: 0 5px;
+	font-size: 1.8em;
+}
+
+.features-img{
+	max-width: 93%;
+	padding: 0 10px;
+}
+
+.features-box-text{
+	padding: 3px 10px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+
+#footer-copy p{
+	display: block;
+	color: #cecece;
+	text-align: center;
+	background: #333333;
+	padding: 8px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******************* RESPONSIVE DESIGN *********************/
+
+
+@media screen and (max-width: 460px){
+
+	#header{
+		max-height: 520px;
+		padding: 10px;
+	}
+
+	#logo-container{
+		max-width: 100%;
+	}
+
+	#main-menu{
+		max-width: 100%;
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+	}
+
+	#header-text{
+		font-size: 3em;
+		width: 100%;
+	}
+
+	#message-img{
+		width: 100%;
+		float: none;
+	}
+
+	#message{
+		font-size: 2em;
+		padding: 8px 5px;
+	}
+
+	.features-columns{
+		max-width: 100%;
+	}
+
+	.features-box{
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 460px) and (max-width: 768px){
+
+	.features-columns{
+		max-width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px){
+
+	.features-columns{
+		max-width: 100%;
+	}
+
+}
+
+
+@media screen and (min-width: 980px) and (max-width: 1200px){
+
+	
+}
+
+
+@media screen and (min-width: 1200px){}
