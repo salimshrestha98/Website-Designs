@@ -1,0 +1,409 @@
+/*
+This template is designed on 2018/20/8 by Salim Shrestha.
+
+*/
+
+
+/*GLOBAL STYLES*/
+
+body,html{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	font-size: 13px;
+}
+
+li{
+	list-style: none;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	padding: 0 8%;
+}
+
+#page{
+	background: #f0f0f0;
+	padding: 0 5%;
+	padding-top: .5em;
+}
+
+/*HEADER STYLES*/
+
+#brand{
+	margin: 5px 0 15px 5px;
+	display: inline-block;
+	max-height: 10vh;
+}
+
+#social-links{
+	float: right;
+}
+
+#social-links img{
+	margin: 0px;
+	max-width: 40px;
+}
+
+#nav{
+	background: #3b97d1;
+}
+
+#menu-bar{
+	padding: 10px 0;
+	display: inline-block;
+}
+
+#menu-bar li{
+	display: inline;
+	padding: 10px;
+}
+
+#menu-bar li a{
+	font-size: 1.15em;
+	color: black;
+}
+
+.active{
+	border-bottom: 5px solid #ef3b3b;
+}
+
+#search{
+	float: right;
+	margin: 5px;
+}
+
+#search input,button{
+	padding: 3px 10px;
+	font-size: 1.15em;
+}
+
+#search button{
+	background: #3ee642;
+	border: 2px solid #3ee642;
+}
+
+/*MAIN STYLES*/
+
+#main{
+	max-width: 65%;
+	padding: 20px;
+	display: inline-block;
+	border-right: 1px solid #3b97d1;
+}
+
+.main-post-title{
+	color: #3b97d1;
+	text-align: center;
+	font-size: 2em;
+}
+
+.post-img{
+	max-width: 100%;
+}
+
+#main p{
+	font-size: 1.15em;
+	letter-spacing: .1em;
+	word-spacing: .5em;
+}
+
+/*SIDEBAR STYLES*/
+
+#sidebar{
+	max-width: 30%;
+	float: right;
+}
+
+#sidebar>div{
+	padding: 2em 0;
+	padding-top: 1.25em;
+	border-bottom: 1px solid #3b97d1;
+	overflow: hidden;
+	display: block;
+}
+
+#sidebar>div>h3{
+	display: block;
+	padding: 8px;
+	background: #3b97d1;
+	color: #ddd;
+	margin: 10px;
+	text-align: center;
+}
+
+#top-picks .post{
+	display: block;
+	min-height: 5em;
+	margin: 15px;
+}
+
+.thumbnail{
+	max-width: 30%;
+	margin-right: 15px;
+	float: left;
+}
+
+.post-title{
+	font-weight: bold;
+	color: #3b97d1;
+}
+
+#tags{
+
+}
+
+#tags ul li{
+	float: left;
+	margin: 5px;
+	background: #ccc;
+	border-radius: 10px;
+	padding: 3px 10px;
+}
+
+#tags ul li a{
+	color: #000;
+}
+
+#subscribe-form{
+	
+}
+
+#subscribe{
+	max-width: 100%;
+	padding: 5%;
+}
+
+#subscribe-form>h4{
+	padding: 0 1.5em;
+	text-align: center;
+}
+
+#subscribe .input1{
+	min-width: 100%;
+	max-width: 100%;
+	padding: 5px 10px;
+	margin: 15px 0;
+	box-sizing: border-box;
+}
+
+#subscribe .submit-btn{
+	display: block;
+	margin: 0 auto;
+	background: #ef3b3b;
+	padding: 5px 20px;
+	border-radius: 10px;
+	box-shadow: none;
+	border: 2px solid #ef3b3b;
+	color: white;
+}
+
+#subscribe .submit-btn:hover{
+	background: #fff;
+	color: #ef3b3b;
+}
+
+#footer{
+	background: #555;
+	min-width: 100%;
+	padding: 1.25em 0;
+	display: block;
+	text-align: center;
+}
+
+#menu-bar-footer{
+	display: inline-block;
+	margin: 0 1em;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+#menu-bar-footer li{
+	display: inline;
+	margin: .8em 1em;
+}
+
+#menu-bar-footer li a{
+	color: #fff;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+	body {
+		font-size: 12px;
+	}
+
+	#menu-bar{
+		display: block;
+		text-align: center;
+		font-size: 1.25em;
+	}
+
+	#page{
+		padding: 0 8%;
+	}
+
+	#main{
+		max-width: 100%;
+		display: block;
+		padding: 2em 4em;
+		border: none;
+	}
+
+	#sidebar{
+		max-width: 100%;
+		display: block;
+		float: none;
+		background: #fff;
+	}
+
+	.post{
+		max-width: 45%;
+		min-width: 44%;
+		float: left;
+		margin: 0;
+	}
+
+	.thumbnail{
+		max-width: 100%;
+		display: block;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 1.5em;
+	}
+
+	.post-title{
+		display: block;
+		text-align: center;
+	}
+
+	#subscribe{
+		padding: 0 20%;
+	}
+
+	#footer{
+		display: block;
+		padding: 1.25em;
+	}
+}
+
+/*FOR SCREENS <768px*/
+
+@media screen and (max-width: 768px){
+	body{
+		font-size: 10px;
+	}
+
+	#brand{
+		display: block;
+		margin: 0 auto;
+		padding: 1em;
+	}
+
+	#social-links,#search{
+		display: none;
+	}
+
+	#main{
+		max-width: 100%;
+		display: block;
+	}
+
+	#sidebar{
+		float: none;
+		display: block;
+		max-width: 100%;
+	}
+
+	.post{
+		max-width: 30%;
+	}
+
+	#subscribe{
+		padding: 5% 15%;
+	}
+
+	#footer>*{
+		display: block;
+		margin: .5em 0;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.post{
+		max-width: 50px;
+	}
+
+	#subscribe{
+		padding: 5% 10%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	body {
+		font-size: 10px;
+	}
+
+	#page{
+		padding: 0 2%;
+	}
+
+	#menu-bar li{
+		padding: 0.5em 1em;
+		display: inline-block;
+	}
+
+	.active{
+		border-bottom: 3px solid #ef3b3b;
+	}
+
+	#main{
+		max-width: 100%;
+		display: block;
+		padding: 2em;
+	}
+
+	#sidebar{
+		max-width: 100%;
+		display: block;
+		background: #fff;
+	}
+
+	.post{
+		max-width: 100%;
+		padding: 0 1em;
+		margin: 0;
+	}
+
+	.thumbnail{
+		max-width: 100%;
+		display: block;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 1.5em;
+	}
+
+	.post-title{
+		display: block;
+		text-align: center;
+	}
+
+	#subscribe{
+		padding: 5%;
+	}
+
+}

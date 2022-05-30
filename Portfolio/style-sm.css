@@ -1,0 +1,65 @@
+@media only screen and (max-width: 760px) {
+
+header {
+    margin: 0;
+}
+
+header>div {
+    padding: 0 0 0 15px;
+}
+
+#top-menu {
+    display: none;
+}
+
+#type-container {
+    padding-top: 60px;
+}
+
+#type-container > p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+
+#i-am-blocks div {
+    padding: 0;
+}
+
+#i-am-blocks img {
+    padding: 5% 30%;
+}
+
+#i-am-blocks h3 {
+    border: 0;
+    padding-top: 5px;
+}
+
+#i-am-blocks p {
+    padding-bottom: 25px;
+}
+
+
+#skills {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+#social {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+}
